@@ -1,0 +1,9 @@
+---
+server.name: kibana
+server.host: "192.168.0.10"
+elasticsearch.hosts: [ "http://localhost:9200" ]
+
+xpack.monitoring.ui.container.elasticsearch.enabled: false
+## X-Pack security credentials
+#elasticsearch.username: elastic
+#elasticsearch.password: 321654987
